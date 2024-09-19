@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salida</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background: #fcfcfc;
+        background-image: url("https://media.tenor.com/fYjb981G5kQAAAAi/thinking-emoji.gif");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        font-family: Arial, sans-serif;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      .contenedor {
+        max-width: 100%;
+        padding: 20px;
+      }
+      .titulo {
+        -webkit-background-clip: text;
+        color: black;
+        text-decoration: underline;
+
+        margin-bottom: 20px;
+        font-size: 24px;
+      }
+      .opciones p {
+        background: red;
+        display: inline-block;
+        padding: 12px;
+        color: #ffffff;
+        border-radius: 2px;
+        font-weight: bold;
+        margin: 10px;
+        cursor: pointer;
+        width: 100px;
+      }
+      #si {
+        background: gray;
+        width: 90%;
+        margin: 20px auto;
+        color: #ffffff;
+        padding: 20px;
+        display: none;
+      }
+      #si img {
+        width: 100%;
+        max-width: 400px;
+      }
+      /* Responsive design */
+      @media (max-width: 600px) {
+        .titulo {
+          font-size: 20px;
+        }
+        .opciones p {
+          width: 80px;
+          padding: 10px;
+          margin: 8px;
+        }
+        #si {
+          padding: 10px;
+        }
+      }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".p1").hover(function () {
+          var arriba = Math.random() * ($(window).height() - 100);
+          var izquierda = Math.random() * ($(window).width() - 100);
+          $(this).css({
+            top: arriba + "px",
+            left: izquierda + "px",
+            position: "absolute",
+          });
+        });
+      });
+
+      function dijoSi() {
+        // Hide both buttons (the parent container for the options)
+        document.querySelector(".opciones").style.display = "none";
+        // Show the 'si' content
+        document.getElementById("si").style.display = "block";
+      }
+    </script>
+  </head>
+  <body>
+    <div class="contenedor">
+      <div class="titulo">
+        <h1>¿Aceptas la salida a Mereketengue?</h1>
+      </div>
+      <div class="opciones">
+        <p class="p1">NO</p>
+        <p onclick="dijoSi()" class="p2">SI</p>
+      </div>
+      <div id="si">
+        <img
+          src="https://i.pinimg.com/originals/6c/22/3b/6c223ba0b3b3f901993fc42eeaae1819.jpg"
+          alt="imagen"
+        />
+        <h2>Sabía que dirías que sí :')</h2>
+      </div>
+    </div>
+  </body>
+</html>
