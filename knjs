@@ -1,0 +1,336 @@
+{
+  word: "依", 
+  definition: "dependencia",  
+  onyomi: "i, e",  
+  kunyomi: "yo.ru",  
+  example: "依存 (dependencia)" 
+},
+{
+  word: "籍", 
+  definition: "registro",  
+  onyomi: "seki",  
+  kunyomi: "-",  
+  example: "国籍 (nacionalidad)" 
+},
+{
+  word: "汚", 
+  definition: "sucio",  
+  onyomi: "o",  
+  kunyomi: "kegasu",  
+  example: "汚染 (contaminación)" 
+},
+{
+  word: "枚", 
+  definition: "contar objetos planos",  
+  onyomi: "mai, bai",  
+  kunyomi: "-",  
+  example: "一枚 (una hoja)" 
+},
+{
+  word: "複", 
+  definition: "doble",  
+  onyomi: "fuku",  
+  kunyomi: "-",  
+  example: "複雑 (complejo)" 
+},
+{
+  word: "郵", 
+  definition: "correo",  
+  onyomi: "yuu",  
+  kunyomi: "-",  
+  example: "郵便 (correo)" 
+},
+{
+  word: "仲", 
+  definition: "relación",  
+  onyomi: "chuu",  
+  kunyomi: "naka",  
+  example: "仲間 (compañero)" 
+},
+{
+  word: "栄",   //seguir
+  definition: "prosperar",  
+  onyomi: "ei",  
+  kunyomi: "saka",  
+  example: "栄光 (gloria)" 
+},
+{
+  word: "札", 
+  definition: "billete, etiqueta",  
+  onyomi: "satsu",  
+  kunyomi: "fuda",  
+  example: "名札 (etiqueta)" 
+},
+{
+  word: "板", 
+  definition: "tabla, tablero",  
+  onyomi: "ban",  
+  kunyomi: "ita",  
+  example: "看板 (letrero)" 
+},
+{
+  word: "骨", 
+  definition: "hueso",  
+  onyomi: "kotsu",  
+  kunyomi: "hone",  
+  example: "骨折 (fractura ósea)" 
+},
+{
+  word: "傾", 
+  definition: "inclinarse",  
+  onyomi: "kei",  
+  kunyomi: "katamuki",  
+  example: "傾向 (tendencia)" 
+},
+{
+  word: "届", 
+  definition: "entregar",  
+  onyomi: "kai",  
+  kunyomi: "todo",  
+  example: "届け出 (notificación)" 
+},
+{
+  word: "巻", 
+  definition: "volumen, rollo",  
+  onyomi: "kan",  
+  kunyomi: "maki",  
+  example: "巻物 (pergamino)" 
+},
+{
+  word: "燃", 
+  definition: "quemar",  
+  onyomi: "nen",  
+  kunyomi: "mo",  
+  example: "燃料 (combustible)" 
+},
+{
+  word: "跡", 
+  definition: "huella",  
+  onyomi: "seki",  
+  kunyomi: "ato",  
+  example: "足跡 (huella)" 
+},
+{
+  word: "包", 
+  definition: "envolver",  
+  onyomi: "hou",  
+  kunyomi: "tsutsu",  
+  example: "包帯 (vendaje)" 
+},
+{
+  word: "駐", 
+  definition: "estacionar",  
+  onyomi: "chuu",  
+  kunyomi: "-",  
+  example: "駐車 (estacionamiento)" 
+},
+{
+  word: "弱", 
+  definition: "débil",  
+  onyomi: "jaku",  
+  kunyomi: "yowa",  
+  example: "弱点 (punto débil)" 
+},
+{
+  word: "紹", 
+  definition: "introducir",  
+  onyomi: "shou",  
+  kunyomi: "-",  
+  example: "紹介 (introducción)" 
+},
+{
+  word: "雇", 
+  definition: "emplear",  
+  onyomi: "ko",  
+  kunyomi: "yato",  
+  example: "雇用 (empleo)" 
+},
+{
+  word: "替", 
+  definition: "cambiar",  
+  onyomi: "tai",  
+  kunyomi: "ka",  
+  example: "交替 (turno)" 
+},
+{
+  word: "預", 
+  definition: "depositar",  
+  onyomi: "yo",  
+  kunyomi: "azu",  
+  example: "預金 (depósito)" 
+},
+{
+  word: "焼", 
+  definition: "quemar",  
+  onyomi: "shou",  
+  kunyomi: "ya",  
+  example: "焼肉 (carne asada)" 
+},
+{
+  word: "簡", 
+  definition: "simple",  
+  onyomi: "kan",  
+  kunyomi: "-",  
+  example: "簡単 (simple)" 
+},
+{
+  word: "章", 
+  definition: "capítulo",  
+  onyomi: "shou",  
+  kunyomi: "-",  
+  example: "章節 (capítulo y sección)" 
+},
+{
+  word: "臓", 
+  definition: "órgano",  
+  onyomi: "zou",  
+  kunyomi: "-",  
+  example: "内臓 (órgano interno)" 
+},
+{
+  word: "律", 
+  definition: "ley, regla",  
+  onyomi: "ritsu",  
+  kunyomi: "-",  
+  example: "法律 (ley)" 
+},
+{
+  word: "贈", 
+  definition: "regalar",  
+  onyomi: "zou",  
+  kunyomi: "oku",  
+  example: "贈物 (regalo)" 
+},
+{
+  word: "照", 
+  definition: "iluminar",  
+  onyomi: "shou",  
+  kunyomi: "te",  
+  example: "照明 (iluminación)" 
+},
+{
+  word: "薄", 
+  definition: "delgado",  
+  onyomi: "haku",  
+  kunyomi: "usu",  
+  example: "薄片 (lámina delgada)" 
+},
+{
+  word: "群", 
+  definition: "grupo",  
+  onyomi: "gun",  
+  kunyomi: "mura",  
+  example: "群衆 (multitud)" 
+},
+{
+  word: "秒", 
+  definition: "segundo (tiempo)",  
+  onyomi: "byou",  
+  kunyomi: "-",  
+  example: "秒針 (segundero)" 
+},
+{
+  word: "奥", 
+  definition: "profundidad",  
+  onyomi: "ou",  
+  kunyomi: "oku",  
+  example: "奥行き (profundidad)" 
+},
+{
+  word: "詰", 
+  definition: "llenar",  
+  onyomi: "kits",  
+  kunyomi: "tsume",  
+  example: "詰め物 (relleno)" 
+},
+{
+  word: "双", 
+  definition: "par",  
+  onyomi: "sou",  
+  kunyomi: "futa",  
+  example: "双子 (gemelos)" 
+},
+{
+  word: "刺", 
+  definition: "pinchar",  
+  onyomi: "shi",  
+  kunyomi: "sa",  
+  example: "刺身 (sashimi)" 
+},
+{
+  word: "純", 
+  definition: "puro",  
+  onyomi: "jun",  
+  kunyomi: "-",  
+  example: "純粋 (pureza)" 
+},
+{
+  word: "翌", 
+  definition: "siguiente",  
+  onyomi: "yoku",  
+  kunyomi: "-",  
+  example: "翌日 (día siguiente)" 
+},
+{
+  word: "快", 
+  definition: "agradable",  
+  onyomi: "kai",  
+  kunyomi: "kokoroyo",  
+  example: "快適 (cómodo)" 
+},
+{
+  word: "片", 
+  definition: "pedazo",  
+  onyomi: "hen",  
+  kunyomi: "kata",  
+  example: "片方 (uno de los dos)" 
+},
+{
+  word: "敬", 
+  definition: "respeto",  
+  onyomi: "kei",  
+  kunyomi: "uyama",  
+  example: "敬意 (respeto)" 
+},
+{
+  word: "悩", 
+  definition: "preocupación",  
+  onyomi: "nou",  
+  kunyomi: "naya",  
+  example: "悩み事 (preocupación)" 
+},
+{
+  word: "泉", 
+  definition: "fuente",  
+  onyomi: "sen",  
+  kunyomi: "izumi",  
+  example: "温泉 (aguas termales)" 
+},
+{
+  word: "皮", 
+  definition: "piel",  
+  onyomi: "hi",  
+  kunyomi: "kawa",  
+  example: "皮膚 (piel)" 
+},
+{
+  word: "漁", 
+  definition: "pescar",  
+  onyomi: "gyo",  
+  kunyomi: "ryou",  
+  example: "漁業 (pesca)" 
+},
+{
+  word: "里", 
+  definition: "village",  
+  onyomi: "ri",  
+  kunyomi: "sato",  
+  example: "里帰り (visitar a los padres)" 
+},
+{
+  word: "荒", 
+  definition: "desierto",  
+  onyomi: "kou",  
+  kunyomi: "ara",  
+  example: "荒野 (desierto)" 
+}
