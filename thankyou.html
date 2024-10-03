@@ -397,7 +397,7 @@
 
     <script>
       // Retrieve the selected image from localStorage
-      const selectedMovieImage = localStorage.getItem("selectedMovieImage");
+      const selectedMovieImage = localStorage.getItem("selectImgMov");
 
       // Check if an image was selected
       if (selectedMovieImage) {
@@ -417,22 +417,5 @@
       }
     </script>
 
-    <script>
-      function takeScreenshot() {
-        var captureElement = document.getElementById("capture");
-
-        // Use html2canvas to take a screenshot of the element
-        html2canvas(captureElement).then(function (canvas) {
-          // Append the screenshot to the result div
-          document.getElementById("screenshot-result").appendChild(canvas);
-
-          // Optionally, save the screenshot as an image file
-          var link = document.createElement("a");
-          link.download = "screenshot.png";
-          link.href = canvas.toDataURL();
-          link.click();
-        });
-      }
-    </script>
   </body>
 </html>
