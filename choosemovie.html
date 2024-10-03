@@ -126,7 +126,7 @@
         >
           <main>
             <h1 style="color: rgb(255, 148, 148)">
-              ⠀ ⠀ ⠀ ⠀What movie do you want to watch ?
+              ⠀ ⠀⠀ ⠀What movie do you want to watch ?
             </h1>
             <main class="d-flex flex-wrap justify-content-center mt-3">
               <div class="m-2">
@@ -141,7 +141,7 @@
                       src="joker.jpg"
                       width="210"
                       height="210"
-                      onclick="selectMovieImage('joker.jpg', this);"
+                      onclick="selectImageM('joker.jpg', this);"
                       style="cursor: pointer"
                     />
                   </div>
@@ -162,7 +162,7 @@
                       src="moana2.jpg"
                       width="210"
                       height="210"
-                      onclick="selectMovieImage('moana2.jpg', this);"
+                      onclick="selectImageM('moana2.jpg', this);"
                       style="cursor: pointer"
                     />
                   </div>
@@ -183,7 +183,7 @@
                       src="itendswus.webp"
                       width="210"
                       height="210"
-                      onclick="selectMovieImage('itendswus.webp', this);"
+                      onclick="selectImageM('itendswus.webp', this);"
                       style="cursor: pointer"
                     />
                   </div>
@@ -204,7 +204,7 @@
                       src="thekillergame.webp"
                       width="210"
                       height="210"
-                      onclick="selectMovieImage('thekillergame.webp', this);"
+                      onclick="selectImageM('thekillergame.webp', this);"
                       style="cursor: pointer"
                     />
                   </div>
@@ -225,7 +225,7 @@
                       src="transformer.jpg"
                       width="210"
                       height="210"
-                      onclick="selectMovieImage('transformer.jpg', this);"
+                      onclick="selectImageM('transformer.jpg', this);"
                       style="cursor: pointer"
                     />
                   </div>
@@ -246,7 +246,7 @@
                       src="wildrobot.webp"
                       width="210"
                       height="210"
-                      onclick="selectMovieImage('wildrobot.webp', this);"
+                      onclick="selectImageM('wildrobot.webp', this);"
                       style="cursor: pointer"
                     />
                   </div>
@@ -349,15 +349,15 @@
       </div>
     </div>
     <script>
-      let selectedMovieImage = null;
+      let selectImgMov = null;
 
-      function selectMovieImage(imageSrc, imgElement) {
-        localStorage.setItem("selectedMovieImage", imageSrc);
+      function selectImageM(imageSrc, imgElement) {
+        localStorage.setItem("selectImgMov", imageSrc);
 
         // Deselect the previously selected image
-        if (selectedMovieImage) {
+        if (selectImgMov) {
           const previousImageElement = document.querySelector(
-            `img[src="${selectMovieImage}"]`
+            `img[src="${selectImgMov}"]`
           );
           if (previousImageElement) {
             previousImageElement.classList.remove("selected");
@@ -365,16 +365,16 @@
         }
 
         // Select the new image
-        selectMovieImage = imageSrc;
+        selectImgMov = imageSrc;
         imgElement.classList.add("selected"); // Highlight the selected image
-        console.log("Selected image: " + selectMovieImage); // Log the selected image
+        console.log("Selected image: " + selectImgMov); // Log the selected image
       }
 
       function continueSelection() {
-        if (!selectMovieImage) {
+        if (!selectImageM) {
           alert("Please select an image before continuing.");
         } else {
-          window.location.href = "rate.html"; // Redirect to thankyou.html
+          window.location.href = "thankyou.html"; // Redirect to thankyou.html
         }
       }
     </script>
