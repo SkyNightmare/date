@@ -3,98 +3,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DATE</title>
-    <script
-      type="module"
-      crossorigin=""
-      src="/assets/index-CF0CtQvc.js"
-    ></script>
+
     <link rel="stylesheet" crossorigin="" href="index.css" />
-    <style id="_goober">
-      @keyframes go2264125279 {
-        from {
-          transform: scale(0) rotate(45deg);
-          opacity: 0;
-        }
-        to {
-          transform: scale(1) rotate(45deg);
-          opacity: 1;
-        }
-      }
-      @keyframes go3020080000 {
-        from {
-          transform: scale(0);
-          opacity: 0;
-        }
-        to {
-          transform: scale(1);
-          opacity: 1;
-        }
-      }
-      @keyframes go463499852 {
-        from {
-          transform: scale(0) rotate(90deg);
-          opacity: 0;
-        }
-        to {
-          transform: scale(1) rotate(90deg);
-          opacity: 1;
-        }
-      }
-      @keyframes go1268368563 {
-        from {
-          transform: rotate(0deg);
-        }
-        to {
-          transform: rotate(360deg);
-        }
-      }
-      @keyframes go1310225428 {
-        from {
-          transform: scale(0) rotate(45deg);
-          opacity: 0;
-        }
-        to {
-          transform: scale(1) rotate(45deg);
-          opacity: 1;
-        }
-      }
-      @keyframes go651618207 {
-        0% {
-          height: 0;
-          width: 0;
-          opacity: 0;
-        }
-        40% {
-          height: 0;
-          width: 6px;
-          opacity: 1;
-        }
-        100% {
-          opacity: 1;
-          height: 10px;
-        }
-      }
-      @keyframes go901347462 {
-        from {
-          transform: scale(0.6);
-          opacity: 0.4;
-        }
-        to {
-          transform: scale(1);
-          opacity: 1;
-        }
-      }
-      .go4109123758 {
-        z-index: 9999;
-      }
-      .go4109123758 > * {
-        pointer-events: auto;
-      }
-    </style>
     <style>
       .selected {
-        box-shadow: 0 0 10px 5px rgba(255, 20, 147, 0.8); /* Darker pink shadow */
-        transition: box-shadow 0.3s ease; /* Smooth transition */
+        box-shadow: 0 0 10px 5px rgba(255, 20, 147, 0.8);
+        transition: box-shadow 0.3s ease;
       }
     </style>
   </head>
@@ -354,7 +268,6 @@
       function selectImageM(imageSrc, imgElement) {
         localStorage.setItem("selectImgMov", imageSrc);
 
-        // Deselect the previously selected image
         if (selectImgMov) {
           const previousImageElement = document.querySelector(
             `img[src="${selectImgMov}"]`
@@ -364,17 +277,16 @@
           }
         }
 
-        // Select the new image
         selectImgMov = imageSrc;
-        imgElement.classList.add("selected"); // Highlight the selected image
-        console.log("Selected image: " + selectImgMov); // Log the selected image
+        imgElement.classList.add("selected");
+        console.log("Selected image: " + selectImgMov);
       }
 
       function continueSelection() {
         if (!selectImageM) {
           alert("Please select an image before continuing.");
         } else {
-          window.location.href = "thankyou.html"; // Redirect to thankyou.html
+          window.location.href = "rate.html";
         }
       }
     </script>
